@@ -1,0 +1,92 @@
+#wrapper {
+    margin:20px;
+}
+
+#header {
+    background-color:#FF3D32;
+    color:#FFFFFF;
+    text-align:center;
+    font-weight:bold;
+    font-family: 'Helvetica', Arial, sans-serif;
+    position:fixed;
+    z-index:1;
+    width: 100%;
+    margin-left:-20px;
+    margin-top:-20px;
+    padding: 10px 10px;
+    clear:both;
+}
+
+#sitetitle {
+    float:left;
+    display:inline;
+    padding-left: 40px;
+}
+
+#navbar {
+    float:right;
+    display:inline;
+    padding-top: 15px;
+}
+
+ul {
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+}
+
+li {
+    display:inline;
+    padding: 15px;
+    margin-right: 40px;
+    float:right;
+}
+
+.left {
+    display:inline-block;
+    font-family: 'Helvetica', Arial, sans-serif;
+    color: black;
+    margin-top:100px;
+    float:left;
+    width: 70%;
+}
+
+.right {
+    display:inline-block;
+    border: 2px solid #FF3D32;
+    color: #FF3D32;
+    font-family: 'Helvetica', Arial, sans-serif;
+    margin-top:120px;
+    float:right;
+    width: 25%;
+    padding-left: 10px;
+}
+
+#getintouchbutton {
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-weight:bold;
+    color: #FFFFFF;
+    text-align:center;
+    
+    background-color: #6867FF;
+    width: 100px;
+    
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#footer {
+    background-color:#FF3D32;
+    color:#FFFFFF;
+    font-weight:bold;
+    clear:both;
+    text-align:center;
+    font-family: 'Helvetica', Arial, sans-serif;
+    padding: 10px;
+    margin-left: -20px;
+    margin-right: -20px;
+    width: 100%;
+}
